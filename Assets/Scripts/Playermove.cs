@@ -5,6 +5,7 @@ public class Playermove : MonoBehaviour
     public Rigidbody rb;
     public float SideForce = 0.1f;
     public Transform player;
+    public GameManager GM;
 
     private bool InJump = false;
     // Update is called once per frame
@@ -43,10 +44,10 @@ public class Playermove : MonoBehaviour
 
 
 
-        /*if (rb.position.y < -5)
+       if (rb.position.y < -5)
         {
             FindObjectOfType<GameManager>().EndGame();
-        }*/
+        }
 
     }
 }

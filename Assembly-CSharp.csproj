@@ -63,7 +63,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\End.cs" />
     <Compile Include="Assets\Scripts\EnemyMove.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\LoadEndless.cs" />
     <Compile Include="Assets\Scripts\Playermove.cs" />
     <Compile Include="Assets\Scripts\Quit.cs" />
     <Reference Include="UnityEngine">
