@@ -21,7 +21,7 @@ public class EnemyMove : MonoBehaviour
     {
         if (enemy.position.x >= 7 || enemy.position.x <= -7)
         {
-            rb.velocity = new Vector3(-(xRand * BounceForce) * Time.deltaTime, -rb.velocity.y * Time.deltaTime, (zRand * BounceForce) * Time.deltaTime);
+            rb.velocity = new Vector3(-(xRand * BounceForce) * Time.deltaTime, 0-rb.velocity.y * Time.deltaTime, (zRand * BounceForce) * Time.deltaTime);
             xRand *= -1;
         }
         if (enemy.position.z >= 7 || enemy.position.z <= -7)
